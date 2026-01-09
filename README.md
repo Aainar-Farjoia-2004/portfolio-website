@@ -6,7 +6,7 @@ A modern and responsive portfolio website built with **HTML, CSS, and Bootstrap*
 
 ## 🌍 Live Preview
 
-🔗 
+🔗  https://aainar-farjoia-2004.github.io/portfolio-website/
 
 ---
 
