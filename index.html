@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aainar Farjoia - Frontend Developer Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#hero">Aainar Farjoia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="hero" class="hero-section text-center">
+            <div class="container">
+                <img src="/photos/logo.png" alt="Aainar Farjoia" class="profile-img">
+                <h1>Aainar Farjoia</h1>
+                <p class="lead">Frontend Developer | Passionate about creating beautiful, responsive web experiences</p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="py-5">
+
+            <div class="container">
+                <h2 class="text-center mb-4">About Me</h2>
+                <p class="text-center">Hi, I'm Aainar Farjoia, a dedicated frontend developer with a love for clean code and user friendly designs. I specialize in building responsive websites that look great on any device.</p>
+            </div>
+
+        </section>
+
+        <section id="skills" class="py-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center mb-4">Skills</h2>
+
+                <div class="row text-center">
+
+                    <div class="col-md-4 mb-3">
+                        <div class="skill-card">
+                            <i class="fas fa-code fa-3x mb-2 text-primary"></i>
+                            <h5>HTML & CSS</h5>
+                            <p>Building structured, styled web pages.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="skill-card">
+                            <i class="fab fa-js-square fa-3x mb-2 text-warning"></i>
+                            <h5>JavaScript</h5>
+                            <p>Adding interactivity and dynamic features.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="skill-card">
+                            <i class="fab fa-bootstrap fa-3x mb-2 text-info"></i>
+                            <h5>Bootstrap</h5>
+                            <p>Rapid prototyping with responsive grids.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="skill-card">
+                            <i class="fab fa-react fa-3x mb-2 text-success"></i>
+                            <h5>React</h5>
+                            <p>Creating reusable UI components.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt fa-3x mb-2 text-danger"></i>
+                            <h5>Git & GitHub</h5>
+                            <p>Version control and collaboration.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Projects</h2>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark text-white">
+                            <img src="/photos/portfolio.png" class="card-img-top" alt="Project 1 : Portfolio Website">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfolio Website</h5>
+                                <p class="card-text">A modern and responsive portfolio website built with HTML, CSS, and Bootstrap, featuring a sidebar navigation, smooth transitions, and clean layout design.</p>
+                                <a href="https://aainar-farjoia-2004.github.io/css-sidebar-navigation/" target="_blank" class="btn btn-outline-primary">View Live</a>
+                                <a href="https://github.com/Aainar-Farjoia-2004/css-sidebar-navigation" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark text-white">
+                            <img src="photos/weatherApp.png" class="card-img-top" alt="Project 2 : Weather App">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather App</h5>
+                                <p class="card-text">Real time weather web app built with React and Vite, featuring Material UI components, API data fetching, and a responsive, user-friendly interface.</p>
+                                <a href="https://weather-vibes.netlify.app/" class="btn btn-outline-primary" target="_blank">View Live</a>
+                                <a href="https://github.com/Aainar-Farjoia-2004/weather-app" class="btn btn-outline-secondary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark text-white">
+                            <img src="photos/spotify.png" class="card-img-top" alt="Project 3 : Spotify Clone">
+                            <div class="card-body">
+                                <h5 class="card-title">Spotify Clone</h5>
+                                <p class="card-text">A responsive Spotify inspired web app built with HTML, CSS, and JavaScript, featuring a modern UI, interactive sidebar, and smooth navigation transitions.</p>
+                                <a href="https://aainarfy.netlify.app/" class="btn btn-outline-primary" target="_blank">View Live</a>
+                                <a href="https://github.com/Aainar-Farjoia-2004/spotify-clone-frontend" class="btn btn-outline-secondary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark text-white">
+                            <img src="photos/todo.png" class="card-img-top" alt="Project 4 : React Todo App">
+                            <div class="card-body">
+                                <h5 class="card-title">React Todo App</h5>
+                                <p class="card-text">A responsive Todo application built with React and Vite, featuring state management with hooks, Material UI components, and unique task IDs using UUID.</p>
+                                <a href="https://uuidtasks.netlify.app/" class="btn btn-outline-primary" target="_blank">View Live</a>
+                                <a href="https://github.com/Aainar-Farjoia-2004/react-todo-app" class="btn btn-outline-secondary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-dark">
+            <div class="container text-center">
+                <h2 class="mb-4">Contact Me</h2>
+                <p>Let's connect! Reach out for collaborations or opportunities.</p>
+                <p><i class="fas fa-envelope text-primary"></i> aainarfarjoia6@gmail.com</p>
+                <p><i class="fab fa-github text-light"></i> <a href="https://github.com/Aainar-Farjoia-2004" target="_blank">GitHub</a></p>
+            </div>
+        </section>
+
+        <footer class="text-center py-3 bg-dark text-white">
+            <p>&copy; 2026 Aainar Farjoia. All rights reserved.</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

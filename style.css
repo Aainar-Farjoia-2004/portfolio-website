@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 50%, #3a3a3a 100%); /* Dark gradient */
+    color: white;
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ff6b6b; /* Colorful border */
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.skill-card {
+    background: linear-gradient(45deg, #333 0%, #555 100%); /* Dark gradient */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #666;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    background: linear-gradient(45deg, #444 0%, #666 100%);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.btn-primary {
+    background-color: #ff6b6b; /* Bright orange */
+    border-color: #ff6b6b;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+
+.btn-outline-primary {
+    color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #bbb;
+    border-color: #bbb;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #bbb;
+    color: black;
+}
+
+section {
+    background-color: #121212; /* Consistent dark */
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.text-white {
+    color: #e0e0e0 !important;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    .skill-card {
+        padding: 15px;
+    }
+}
+
+
